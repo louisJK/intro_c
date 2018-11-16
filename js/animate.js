@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    console.log("Hello");
+   $(".st0").addClass("active");
+   setTimeout(function(){
+        $(".introTit").animate({opacity:'1'},2000);
+   },3000);
+   setTimeout(function(){
+        $(".visitCard>a").animate({opacity:'1'},2000)
+   },4000);
+});
