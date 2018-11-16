@@ -178,7 +178,7 @@ a{
     stroke: #000;
     fill: #000;
     stroke-dasharray: 700;
-    opacity: 10;
+    opacity: 1;
 }
 .active{
     animation: animate 3s cubic-bezier(0,.23,1,.1);
@@ -192,7 +192,7 @@ a{
     }
 
     30%{
-        opacity: 10;
+        opacity: 1;
         fill: none;
         stroke-dashoffset: 700;
     }
@@ -202,7 +202,7 @@ a{
     }
 
     100%{
-        opacity: 10;
+        opacity: 1;
         fill: rgba(0,0,0,1);
         stroke-dashoffset: 0;
     }
