@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    console.log("Hello");
-   $(".st0").addClass("active");
+    //console.log("Hello");
+   //$(".st0").addClass("active");
    setTimeout(function(){
         $(".introTit").animate({opacity:'1'},2000);
    },3000);
