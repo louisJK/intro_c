@@ -174,39 +174,8 @@ a{
         font-size: .8rem;
     }
 }
-.st0{
-    stroke: #000;
-    fill: #000;
-    stroke-dasharray: 700;
-    opacity: 1;
-}
-.active{
-    animation: animate 3s cubic-bezier(0,.23,1,.1);
-}
 
-@keyframes animate{
-    0%{
-        opacity: 0;
-        fill: none;
-        stroke-dashoffset: 700;
-    }
 
-    30%{
-        opacity: 1;
-        fill: none;
-        stroke-dashoffset: 700;
-    }
-
-    90%{
-        fill: rgba(0,0,0,0);
-    }
-
-    100%{
-        opacity: 1;
-        fill: rgba(0,0,0,1);
-        stroke-dashoffset: 0;
-    }
-}
 
 #entre{
     display: block;
